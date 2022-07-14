@@ -4,8 +4,8 @@
 
 
 const btn = document.querySelector('div.button');
-const del = document.querySelector('button1');
-const all_delete= document.querySelector('button2');
+const a = document.querySelector('div.button1');
+const all_delete= document.querySelector('div.button2');
 
 
 
@@ -23,7 +23,7 @@ input.focus();
 
 });
 
-del.addEventListener('click',()=>{
+a.addEventListener('click',() => {
   const item = document.getElementById('ul');
 item.lastElementChild.remove();
 });
